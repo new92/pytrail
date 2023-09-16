@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pytrail
+Version: 0.1.0
+Summary: The pytrail module simplifies the process of fetching movie trailers programmatically. It offers a user-friendly interface to search for and retrieve the latest trailers for a wide range of movies. Integrate this module into your projects to effortlessly access and showcase movie trailers, enhancing your movie-related applications and websites.
+Home-page: https://www.github.com/new92/pytrail
+Author: new92
+Author-email: new92github@gmail.com
+Maintainer: new92
+Maintainer-email: new92github@gmail.com
+License: MIT
+Project-URL: Github Repository, https://github.com/new92/pytrail
+Keywords: python movies trailer cinema
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytrail 🎥
+
+The pytrail module is a powerful Python tool designed to simplify the process of retrieving movie trailers. With just a few lines of code, you can access the trailers for a wide range of movies. This module leverages popular movie databases and APIs to fetch accurate and up-to-date trailer information, making it a valuable asset for developers creating movie-related applications, websites, or services. Say goodbye to manual searching and enjoy seamless integration of movie trailers into your projects with the pytrail module.
+
+## Installation 📥
+
+Install pytrail using pip
+```bash
+pip install pytrail
+```
+
+## Documentation 📄
+
+#### Example movie url
+
+```python
+from pytrail.models import Client
+
+client = Client('red notice')
+print(client.trailer) # Output: https://www.youtube.com/watch/?v=T6l3mM7AWew
+```
+
+## Authors ✍️
+
+- [@new92](https://www.github.com/new92)
+
+## Contributing 🤝
+
+Contributions are always welcome!
+
+See <a href="https://github.com/new92/pytrail/blob/main/CONTRIBUTING.md">contributing.md</a> for ways to get started.
+
+Please adhere to this project's `code of conduct``. For more info please check the <a href="https://github.com/new92/pytrail/blob/main/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a> file
+
+## Feedback 💭
+
+If you have any feedback, please reach out to us at <a href="mailto:new92github@gmail.com">this email address</a>.
+
+**Feel free to contact us anytime ! You'll get a reply within a day. Please avoid using abusive or offensive language.
+If you are reporting a bug or making a suggestion please make sure your report/suggestion is as much detailed as possible.**
+
+## License 📜
+
+[![License](https://img.shields.io/github/license/new92/pytrail?style=for-the-badge)](https://github.com/new92/pytrail/blob/main/LICENSE.md)
